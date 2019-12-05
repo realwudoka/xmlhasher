@@ -36,8 +36,8 @@ require 'xmlhasher'
 #
 # here is default configuration
 XmlHasher.configure do |config|
-  config.snakecase = true
-  config.ignore_namespaces = true
+  config.snakecase = true,
+  config.ignore_namespaces = true,
   config.string_keys = false
 end
 
